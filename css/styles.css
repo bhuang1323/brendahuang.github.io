@@ -1,0 +1,100 @@
+body {
+  font-family: 'Avenir';
+  src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+}
+
+.container {
+  position: relative;
+  width: 70%;
+}
+
+.logo-text {
+  margin-left: 10px;
+}
+
+.navbar {
+  min-height: 4rem;
+}
+
+.buttons:last-child {
+  margin-bottom: 0;
+}
+
+.hero {
+  text-align: center;
+  background-color: #92141c;
+}
+
+.hero-body .title, .hero-body .subtitle{
+  color: #fefefe;
+}
+
+.info {
+  padding: 2rem 0rem;
+}
+
+.banner {
+  padding: 2rem 0rem;
+  background-color: #92141c;
+}
+
+.content {
+  padding: 2rem 0rem;
+
+}
+
+.about-header {
+  padding-top: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  line-height: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.about-header2{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: auto;
+  color: rgb(138, 138, 138)
+}
+
+
+.name{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.major{
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: #999
+}
+
+.aboutme{
+  text-align: center;
+  font-size: 14px;
+}
+
+.social{
+  text-align: center;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar-hidden {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .buttons {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
